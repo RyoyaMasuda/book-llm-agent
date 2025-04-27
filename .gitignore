@@ -36,3 +36,7 @@ dmypy.json
 
 # Others
 .DS_Store
+
+*.csv
+*.png
+*.mp3
