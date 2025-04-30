@@ -92,3 +92,18 @@
 ---
 
 #AIエージェント #LLMエージェント
+
+# 仮想環境の一覧表示
+poetry env list
+
+# 仮想環境の削除（例: 3.12 環境を削除）
+poetry env remove 3.12
+
+# ロックファイルの削除
+rm poetry.lock
+
+# （必要なら .venv フォルダも削除）
+rm -rf .venv
+
+# 再インストール（新しい仮想環境とロックファイルを作成）
+poetry install
